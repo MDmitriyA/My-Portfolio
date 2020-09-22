@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
+
+<!--
+var circuleOne = document.createElement('div')
+app.appendChild(circuleOne)
+circuleOne.style.height = '100px'
+circuleOne.style.width = '100px'
+circuleOne.style.borderRadius = '50%'
+circuleOne.style.backgroundColor = 'red'
+circuleOne.style.top = 'calc(50% - 50px)'
+circuleOne.style.left = 'calc(50% - 50px)'
+circuleOne.style.position = 'absolute'
+circuleOne.style.zIndex = 3
+circuleOne.onclick = (event) => {
+  console.log('Vi popali 1v tochku')
+}
+
+
+var circuleTwo = document.createElement('div')
+app.appendChild(circuleTwo)
+circuleTwo.style.height = '200px'
+circuleTwo.style.width = '200px'
+circuleTwo.style.borderRadius = '50%'
+circuleTwo.style.backgroundColor = 'green'
+circuleTwo.style.top = 'calc(50% - 100px)'
+circuleTwo.style.left = 'calc(50% - 100px)'
+circuleTwo.style.position = 'absolute'
+circuleTwo.style.zIndex = 2
+circuleTwo.onclick = (event) => {
+  console.log('Vi popali 1v tochku 2')
+}
+
+var circuleTrhee = document.createElement('div')
+app.appendChild(circuleTrhee)
+circuleTrhee.style.height = '300px'
+circuleTrhee.style.width = '300px'
+circuleTrhee.style.borderRadius = '50%'
+circuleTrhee.style.backgroundColor = 'yellow'
+circuleTrhee.style.top = 'calc(50% - 150px)'
+circuleTrhee.style.left = 'calc(50% - 150px)'
+circuleTrhee.style.position = 'absolute'
+circuleTrhee.style.zIndex = 1
+circuleTrhee.onclick = (event) => {
+  console.log('Vi popali 1v tochku 3')
+}
+
+var circuleFour = document.createElement('div')
+app.appendChild(circuleFour)
+circuleFour.style.height = '400px'
+circuleFour.style.width = '400px'
+circuleFour.style.borderRadius = '50%'
+circuleFour.style.backgroundColor = 'blue'
+circuleFour.style.top = 'calc(50% - 200px)'
+circuleFour.style.left = 'calc(50% - 200px)'
+circuleFour.style.position = 'absolute'
+circuleFour.onclick = (event) => {
+  console.log('Vi popali 1v tochku 4')
+} 
+var img = document.createElement('img')
+img.src = "dart.png"
+img.style.zIndex = 10
+img.style.width = '80px'
+img.style.position = 'absolute'
+app.appendChild(img)
+
+var style = document.createElement('style')
+style.innerText = `<style>
+html, body {height: 100%}
+body {margin: 0}
+body:hover {cursor: none}
+</style>`
+
+document.head.appendChild(style)
+
+window.onmousemove = (event) => {
+  img.style.top = `${event.clientY - 80}px`
+  img.style.left = `${event.clientX - 80}px`
+}
+
+var orel = document.createElement('img')
+orel.src = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c6165d18-54f5-4989-900d-ae5404b57f0b/dal9hu1-312417ff-2ea6-4173-bcd7-54d8ba098071.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M2MTY1ZDE4LTU0ZjUtNDk4OS05MDBkLWFlNTQwNGI1N2YwYlwvZGFsOWh1MS0zMTI0MTdmZi0yZWE2LTQxNzMtYmNkNy01NGQ4YmEwOTgwNzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JPmCY9W7V-fPlPl7tXMgahfAZ8UmpeWPNRBqR3-vmuQ'
+orel.style.width = '100px'
+orel.style.position = 'absolute'
+orel.style.transition = '1.5s all'
+app.appendChild(orel)
+
+setInterval(() => {
+  orel.style.top = `${Math.round(Math.random() * window.innerHeight)}px`
+  orel.style.left = `${Math.round(Math.random() * window.innerWidth)}px`
+}, 1500);-->
